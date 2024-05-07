@@ -3,16 +3,19 @@ import { useState } from "react";
 function Modal({ title, children }) {
   const [isShaking, setIsShaking] = useState(false);
 
+  const [isClicked, setIsClicked] = useState(false);
+
   return (
     <>
       <div className="absolute right-0 top-0 m-4">
         <button
           className={`btn btn-circle ${
-            isShaking ? "" : "animate-jump animate-infinite"
+            !isClicked ? "animate-jump animate-infinite" : ""
           }`}
           onClick={() => {
             document.getElementById("my_modal_5").showModal();
-            setIsShaking((prevState) => !prevState);
+            setIsClicked(true);
+            setIsShaking(false);
           }}
         >
           <svg

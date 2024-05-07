@@ -151,11 +151,18 @@ function App() {
         </p>
         <br />
         <p>
-          For Proof: <a href="#">Github Repo</a>
+          For Proof:{" "}
+          <a
+            href="https://github.com/Ayanprogrammer11/fakeTyping"
+            className="link link-info"
+          >
+            Github Repo
+          </a>
         </p>
         <br />
         <p>
-          If you still don't trust us, you are welcome to use Developer Tools :)
+          If you still don't trust us, We Encourage you to use Developer Tools
+          :)
         </p>
       </Modal>
       <Toaster
