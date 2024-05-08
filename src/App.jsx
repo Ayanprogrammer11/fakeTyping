@@ -146,8 +146,9 @@ function App() {
       <Modal title={"IMPORTANT NOTE"}>
         <p>
           We <strong>DONT</strong> store <strong>ANY</strong> type of
-          information inputted in the Web App. INCLUDING AUTHORIZATION TOKENS,
-          NOT EVEN CHANNEL IDs.
+          information inputted in the Web App. This Web App entirely runs on
+          Client-side. It doesnt interact with any type of server or SAAS
+          service. This INCLUDES AUTHORIZATION TOKENS, NOT EVEN CHANNEL IDs.
         </p>
         <br />
         <p>
