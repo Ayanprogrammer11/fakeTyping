@@ -148,7 +148,8 @@ function App() {
           We <strong>DONT</strong> store <strong>ANY</strong> type of
           information inputted in the Web App. This Web App entirely runs on
           Client-side. It doesnt interact with any type of server or SAAS
-          service. This INCLUDES AUTHORIZATION TOKENS, NOT EVEN CHANNEL IDs.
+          service. This INCLUDES AUTHORIZATION TOKENS, NOT EVEN CHANNEL IDs
+          (Even tho if its public).
         </p>
         <br />
         <p>
