@@ -95,7 +95,9 @@ function Form({ dispatch, state }) {
       </div>
       <label className="form-control w-full max-w-xs">
         <div className="label">
-          <span className="label-text">Enter the Channel Id:</span>
+          <span className="label-text">
+            Enter the Channel Id/DM/Group chat:
+          </span>
         </div>
         <input
           type="text"
