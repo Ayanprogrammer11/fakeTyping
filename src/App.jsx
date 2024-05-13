@@ -145,11 +145,10 @@ function App() {
     <div className="App">
       <Modal title={"IMPORTANT NOTE"}>
         <p>
-          We <strong>DONT</strong> store <strong>ANY</strong> type of
-          information inputted in the Web App. This Web App entirely runs on
-          Client-side. It doesnt interact with any type of server or SAAS
-          service. This INCLUDES AUTHORIZATION TOKENS, NOT EVEN CHANNEL IDs
-          (Even tho if its public).
+          I <strong>DONT</strong> store <strong>ANY</strong> type of information
+          inputted in the Web App. This Web App entirely runs on Client-side. It
+          doesnt interact with any type of server or SAAS service. This INCLUDES
+          AUTHORIZATION TOKENS, NOT EVEN CHANNEL IDs (Even tho if its public).
         </p>
         <br />
         <p>
@@ -163,8 +162,7 @@ function App() {
         </p>
         <br />
         <p>
-          If you still don't trust us, We Encourage you to use Developer Tools
-          :)
+          If you still don't trust me, I Encourage you to use Developer Tools :)
         </p>
       </Modal>
       <Toaster
